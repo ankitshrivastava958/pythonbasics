@@ -1,0 +1,27 @@
+i= float("1.0");
+print(i);
+print(max(3,15));
+biggest_num = max(1,8,0,4);
+print(biggest_num);
+smallest_num = min(1,8,0,3);
+print(smallest_num);
+l= [3,8,0,5,89];
+print(max(l));
+v = max(min(5,2),1);
+print(v);
+t = max(7,5);
+m = min(t,5);
+print(m);
+rn = round(1.356,2);
+print(rn);
+rni = round(3.14159);
+print(rni);
+print(max(4.6,3,9.8));
+s= sorted(l,reverse=False);
+print(s)
+r = sorted(l,reverse=True);
+print(r);
+print(sorted(l));
+n= [3,4,min(6,2)];
+tn=sorted(n,reverse=True);
+print(tn);
